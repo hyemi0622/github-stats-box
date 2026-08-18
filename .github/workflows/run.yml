@@ -22,7 +22,7 @@ jobs:
             # - run: npm ci
             - run: npx github-stats-box@1
               env:
-                  GH_TOKEN: ${{ secrets.GH_TOKEN2 }} # Do not edit, defined in secrets
+                  GH_TOKEN2: ${{ secrets.GH_TOKEN2 }} # Do not edit, defined in secrets
 
 
                   # Edit the following environment variables
